@@ -49,7 +49,7 @@ import qualified Data.Text.IO                 as TIO
 import qualified System.Console.Terminal.Size as Terminal
 
 supportedLintFormatVersion :: String
-supportedLintFormatVersion = "4"
+supportedLintFormatVersion = "5"
 
 defaultLintResultsGlob :: GlobPattern
 defaultLintResultsGlob = "**/build/outputs/lint-results.xml"
